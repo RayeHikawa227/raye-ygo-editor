@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style height="610" savename="{{cardname}}" width="421">
+    <styleinfo>
+        <name>yugioh-10-en</name>
+        <desc>YGO 9th</desc>
+        <author>CaiCai</author>
+        <version>20160309</version>
+        <app-version>2</app-version>
+        <icon>icon_en.png</icon>
+        <url>yugioh-10-en.zip</url>
+    </styleinfo>
+
+    <data name="image_type" default="" desc="Image Type">
+        <item name="default" value="" />
+        <item name="no frame" value="noframe" />
+        <item name="full image" value="full" />
+    </data>
+    <data name="cardattr" default="none" desc="Attribute">
+        <item name="none" value="none" />
+        <item name="dark" value="dark" />
+        <item name="divine" value="divine" />
+        <item name="earth" value="earth" />
+        <item name="fire" value="fire" />
+        <item name="light" value="light" />
+        <item name="water" value="water" />
+        <item name="wind" value="wind" />
+        <item name="spell" value="spell" />
+        <item name="trap" value="trap" />
+    </data>
+    <data name="cardtype" default="normal" desc="Card Type">
+        <item name="normal" value="normal" />
+        <item name="effect" value="effect" />
+        <item name="fusion" value="fusion" />
+        <item name="ritual" value="ritual" />
+        <item name="synchro" value="synchro" />
+        <item name="token" value="token" />
+        <item name="xyz" value="xyz" />
+        <item name="spell" value="spell" />
+        <item name="trap" value="trap" />
+        <item name="link" value="link" />
+    </data>
+    <data name="cardname" default="Card Name" desc="Card Name" type="text" />
+    <data name="cardcode" default="00000000" desc="Card Code" type="text" />
+    <data name="cardtext" default="Input card text" desc="Text" type="text" />
+    <data name="cardptext" default="Input pendulum text" desc="Pendulum Text" type="text" />
+    <data name="cardpleft" default="0" desc="Pendulum Left" type="text" />
+    <data name="cardpright" default="0" desc="Pendulum Right" type="text" />
+    <data name="edition" default="" desc="Edition" type="text" />
+    <data name="cardnum" default="DT01-CN001" desc="Number" type="text" />
+    <data name="cardatk" default="0" desc="Atk" type="text" />
+    <data name="carddef" default="0" desc="Def" type="text" />
+    <data name="cardlevel" default="0" desc="Level/Rank" type="text" />
+    <data name="cardcode_image" default="{{cardcode}}.png" desc="Image" type="image" />
+
+    <data name="pimagetype" default="" desc="pendulum image type">
+        <item name="default" value="" />
+        <item name="rect" value="rect" />
+    </data>
+    <data name="cardcopy" default="" desc="copyright image">
+        <item name="default" value="" />
+        <item name="english" value="enCopyriht" />
+        <item name="japan" value="jpCopyriht" />
+    </data>
+    <data name="cardborder" default="" desc="border color">
+        <item name="default" value="" />
+        <item name="gold" value="gold" />
+    </data>
+    <data name="namecolor" default="" desc="card name color">
+        <item name="default" value="" />
+        <item name="silvery" value="#E6E6E6" />
+        <item name="gold" value="#D8C735" />
+        <item name="red" value="#3C0000" />
+        <item name="white" value="#ffffff" />
+        <item name="black" value="#000000" />
+    </data>
+
+    <data name="cardrare" default="none" desc="rare type">
+        <item name="default" value="none" />
+        <item name="super foil" value="superfoil" />
+        <item name="secret foil" value="secretfoil" />
+        <item name="parallel foil" value="parallelfoil" />
+        <item name="mosaic foil" value="mosaicfoil" />
+        <item name="star foil" value="starfoil" />
+        <item name="ultimate foil" value="ultimatefoil" />
+    </data>
+
+    <data name="rare_type" default="" desc="rare size">
+        <item name="default" value="" />
+        <item name="middle" value="middle" />
+        <item name="full" value="full" />
+    </data>
+
+    <data name="corner" default="none" desc="corner">
+        <item name="default" value="none" />
+        <item name="cornerdefault" value="cornerdefault" />
+        <item name="cornerfirst" value="cornerfirst" />
+        <item name="cornerunlimited" value="cornerunlimited" />
+    </data>
+
+    <data name="pendulum" default="none" desc="pendulum type">
+        <item name="none" value="none" />
+        <item name="big" value="big" />
+        <item name="normal" value="normal" />
+        <item name="small" value="small" />
+    </data>
+
+    <data name="stmark" default="" desc="spell/trap">
+        <item name="none" value="" />
+        <item name="normal spell" value="normalspell" />
+        <item name="normal trap" value="normaltrap" />
+        <item name="quick spell" value="quickspell" />
+        <item name="ritual spell" value="ritualspell" />
+        <item name="continuouss spell" value="continuousspell" />
+        <item name="equip spell" value="equipspell" />
+        <item name="field spell" value="fieldspell" />
+        <item name="counter trap" value="countertrap" />
+        <item name="continuouess trap" value="continuoustrap" />
+    </data>
+
+    <data name="race" default="" desc="Race" hide="true">
+        <item value="" />
+        <item value="Warrior" />
+        <item value="Spellcaster" />
+        <item value="Fairy" />
+        <item value="Fiend" />
+        <item value="Zombie" />
+        <item value="Machine" />
+        <item value="Aqua" />
+        <item value="Pyro" />
+        <item value="Rock" />
+        <item value="Winged Beast" />
+        <item value="Plant" />
+        <item value="Insect" />
+        <item value="Thunder" />
+        <item value="Dragon" />
+        <item value="Beast" />
+        <item value="Beast-Warrior" />
+        <item value="Dinosaur" />
+        <item value="Fish" />
+        <item value="Sea Serpent" />
+        <item value="Reptile" />
+        <item value="Psychic" />
+        <item value="Divine-Beast" />
+        <item value="Creator God" />
+        <item value="Wyrm" />
+        <item value="Cyberse" />
+    </data>
+
+    <data name="effect" default="" desc="effect" hide="true">
+        <item value="" />
+        <item value="Synchro" />
+        <item value="Xyz" />
+        <item value="Fusion" />
+        <item value="Ritual" />
+        <item value="Effect" />
+        <item value="Tuner" />
+        <item value="Spirit" />
+        <item value="Toon" />
+        <item value="Gemini" />
+        <item value="Union" />
+        <item value="Pendulum" />
+        <item value="Flip" />
+        <item value="Dark Synchro" />
+        <item value="Dark Tuner" />
+        <item value="Special Summon" />
+        <item value="Token" />
+        <item value="Normal" />
+        <item value="Link" />
+    </data>
+
+    <data name="cardmonster" desc="Race/Effedt" type="multi_select">
+        <item name="race" value="race" />
+        <item name="effect1" value="effect" />
+        <item name="effect2" value="effect" />
+        <item name="effect3" value="effect" />
+    </data>
+
+    <data name="cardfoil" desc="Foil" type="multi_select">
+        <item name="cardrare" value="cardrare" />
+        <item name="rare_type" value="rare_type" />
+        <item name="cardborder" value="cardborder" />
+        <item name="corner" value="corner" />
+        <item name="cardcopy" value="cardcopy" />
+    </data>
+
+    <data name="cardlink" desc="cardlink" type="multi_select">
+        <item name="link_ul" value="link_ul" />
+        <item name="link_u" value="link_u" />
+        <item name="link_ur" value="link_ur" />
+        <item name="link_l" value="link_l" />
+        <item name="link_r" value="link_r" />
+        <item name="link_dl" value="link_dl" />
+        <item name="link_d" value="link_d" />
+        <item name="link_dr" value="link_dr" />
+    </data>
+
+    <data name="cardbg" desc="Style settings" type="multi_select">
+        <item name="cardtype" value="cardtype" />
+        <item name="image_type" value="image_type" />
+        <item name="pendulum" value="pendulum" />
+        <item name="pimagetype" value="pimagetype" />
+        <item name="namecolor" value="namecolor" />
+    </data>
+
+    <data name="link_ul" default="none" desc="up left ">
+        <item name="default" value="none" />
+        <item name="up left" value="up left" />
+    </data>
+    <data name="link_u" default="none" desc="up">
+        <item name="default" value="none" />
+        <item name="up" value="up" />
+    </data>
+
+    <data name="link_ur" default="none" desc="up right">
+        <item name="default" value="none" />
+        <item name="up right" value="up right" />
+    </data>
+    <data name="link_l" default="none" desc="left">
+        <item name="default" value="none" />
+        <item name="left" value="left" />
+    </data>
+
+    <data name="link_r" default="none" desc="right">
+        <item name="default" value="none" />
+        <item name="right" value="right" />
+    </data>
+    <data name="link_dl" default="none" desc="down left">
+        <item name="default" value="none" />
+        <item name="down left" value="down left" />
+    </data>
+    <data name="link_d" default="none" desc="down">
+        <item name="default" value="none" />
+        <item name="down" value="down" />
+    </data>
+    <data name="link_dr" default="none" desc="down right">
+        <item name="default" value="none" />
+        <item name="down right" value="down right" />
+    </data>
+
+    <bool name="is_link_ul" value="'{{link_ul}}' == 'up left'" />
+    <bool name="is_link_u" value="'{{link_u}}' == 'up'" />
+    <bool name="is_link_ur" value="'{{link_ur}}' == 'up right'" />
+    <bool name="is_link_l" value="'{{link_l}}' == 'left'" />
+    <bool name="is_link_r" value="'{{link_r}}' == 'right'" />
+    <bool name="is_link_dl" value="'{{link_dl}}' == 'down left'" />
+    <bool name="is_link_d" value="'{{link_d}}' == 'down'" />
+    <bool name="is_link_dr" value="'{{link_dr}}' == 'down right'" />
+
+    <bool name="cardborder_is_gold" value="'{{cardborder}}' == 'gold'" />
+    <bool name="is_pendulum"
+        value="'{{pendulum}}' == 'big' or '{{pendulum}}' == 'normal' or '{{pendulum}}' == 'small'" />
+    <bool name="image_is_normal"
+        value="'{{image_type}}' != 'noframe' and 'image_type}}' != 'full'" />
+    <bool name="image_is_noframe" value="'{{image_type}}' == 'noframe'" />
+    <bool name="image_is_full" value="'{{image_type}}' == 'full'" />
+    <bool name="pimage_is_normal" value="'{{pimagetype}}' != 'rect'" />
+    <bool name="pimage_is_rect" value="'{{pimagetype}}' == 'rect'" />
+    <bool name="pendulum_is_normal" value="'{{pendulum}}' == 'normal'" />
+    <bool name="pendulum_is_big" value="'{{pendulum}}' == 'big'" />
+    <bool name="pendulum_is_small" value="'{{pendulum}}' == 'small'" />
+    <bool name="pendulum_nots_big" value="{{pendulum_is_small}} or {{pendulum_is_normal}}" />
+    <bool name="pendulum_nots_small" value="{{pendulum_is_normal}} or {{pendulum_is_big}}" />
+    <bool name="is_spelltrap" value="'{{cardtype}}' == 'spell' or '{{cardtype}}' == 'trap'" />
+    <bool name="rare_type_is_normal" value="'{{rare_type}}' == ''" />
+    <bool name="rare_type_is_middle" value="'{{rare_type}}' == 'middle'" />
+    <bool name="rare_type_is_full" value="'{{rare_type}}' == 'full'" />
+    <bool name="card_is_syz" value="'{{cardtype}}' == 'xyz'" />
+    <bool name="card_name_is_white" value="{{is_spelltrap}} or {{card_is_syz}}" />
+    <bool name="card_is_black" value="{{card_is_syz}}" />
+    <bool name="has_name_color" value="'{{namecolor}}' != ''" />
+    <bool name="card_is_link" value="'{{cardtype}}' == 'link'" />
+
+    <layout>
+        <size height="610" left="0" top="0" width="421" />
+        <!-- 背景图-->
+        <image click="cardbg" index="-1">
+            <size height="610" left="0" top="0" width="421" />
+            <src>bg/card-{{cardtype}}.png</src>
+        </image>
+        <!-- 中间图-->
+        <image background="#000000" click="cardcode_image" index="0">
+            <size height="345" left="29.5" top="105.5"
+                when="{{pimage_is_normal}} and {{pendulum_nots_big}}" width="363" />
+            <size height="360" left="29.5" top="105.5"
+                when="{{pimage_is_normal}} and {{pendulum_is_big}}" width="363" />
+            <size height="275" left="29.5" top="105.5"
+                when="{{pimage_is_rect}} and {{pendulum_nots_small}}" width="363" />
+            <size height="298" left="29.5" top="105.5"
+                when="{{pimage_is_rect}} and {{pendulum_is_small}}" width="363" />
+            <size height="334" left="41" top="103" when="{{image_is_noframe}}" width="339" />
+            <size height="582" left="14" top="14" when="{{image_is_full}}" width="393" />
+            <size height="321" left="49.5" top="111" width="323.5" />
+            <size height="319" left="29.5" top="105.5" when="{{card_is_link}} }" width="319.5" />
+            <src>{{cardcode_image}}</src>
+        </image>
+        <image index="1">
+            <size height="610" left="0" top="0" width="421" />
+            <src>bg/card-link.png</src>
+            <visible>{{card_is_link}}</visible>
+        </image>
+        <!-- 黄金边框 -->
+        <image index="2">
+            <size height="610" left="0" top="0" width="421" />
+            <src>foil/border.png</src>
+            <visible>{{cardborder_is_gold}}</visible>
+        </image>
+        <!-- 摇摆背景 -->
+        <image index="-1">
+            <size height="325" left="13.5" top="272" width="394" />
+            <src>pendulum/pendulum.png</src>
+            <visible>{{is_pendulum}}</visible>
+        </image>
+        <!-- 摇摆背景 -->
+        <image index="-1">
+            <size height="17" left="20" top="89" width="381" />
+            <src>pendulum/line-{{cardtype}}.png</src>
+            <visible>{{is_pendulum}}</visible>
+        </image>
+        <!-- P怪中间背景图白色 -->
+        <image background="#ffffff" index="-1">
+            <size height="360" left="30" top="106" width="363" />
+            <visible>{{is_pendulum}} and {{pimage_is_rect}}</visible>
+        </image>
+        <!-- 中间图镀膜 -->
+        <image index="3">
+            <size height="610" left="0" top="0" when="{{rare_type_is_full}}" width="421" />
+            <size height="582" left="14" top="14" when="{{image_is_full}}" width="393" />
+            <size height="275" left="29.5" top="105.5" when="{{pendulum_nots_small}}" width="363" />
+            <size height="294" left="29.5" top="105.5" when="{{pendulum_is_small}}" width="363" />
+            <size height="334" left="41" top="103" when="{{image_is_noframe}}" width="339" />
+            <size height="318" left="51.5" top="112" width="319.5" />
+            <src>foil/{{cardrare}}.png</src>
+            <visible>{{rare_type_is_normal}} == false</visible>
+        </image>
+        <!-- 卡名背景（透明） -->
+        <image index="1">
+            <size height="50" left="18" top="25" width="382" />
+            <src>name.png</src>
+            <visible>{{image_is_full}}</visible>
+        </image>
+        <!-- 效果背景（透明） -->
+        <image index="1">
+            <size height="128" left="23" top="451" width="373" />
+            <src>desc.png</src>
+            <visible>{{image_is_full}}</visible>
+        </image>
+        <!-- 分割线（透明） -->
+        <image index="1">
+            <size height="1" left="35" top="553" width="350" />
+            <src>bar.png</src>
+            <visible>{{is_spelltrap}} == false and {{image_is_full}}</visible>
+        </image>
+        <!-- ATK（透明） -->
+        <text index="1">
+            <size height="21" left="226" top="554" width="56" />
+            <align>vcenter</align>
+            <color>#2C2C2C</color>
+            <font name="font/MatrixBoldSmallCaps.ttf" style="normal" size="18.5" />
+            <text>ATK/</text>
+            <visible>{{is_spelltrap}} == false and {{image_is_full}}</visible>
+        </text>
+        <!-- DEF（透明） -->
+        <text index="1">
+            <size height="21" left="313" top="554" width="56" />
+            <align>vcenter</align>
+            <color>#2C2C2C</color>
+            <font name="font/MatrixBoldSmallCaps.ttf" style="normal" size="18.5" />
+            <text>DEF/</text>
+            <visible>{{is_spelltrap}} == false and {{image_is_full}}</visible>
+        </text>
+        <!-- 中间图金边 -->
+        <image index="1">
+            <size height="331" left="45" top="106" width="333" />
+            <src>foil/image.png</src>
+            <visible>{{is_pendulum}} == false and {{cardborder_is_gold}} and {{image_is_normal}}
+            </visible>
+        </image>
+        <!-- P怪边框 镀膜 -->
+        <image index="1">
+            <size height="485" left="20" top="99" width="382" />
+            <src>pendulum/pendulum_{{pendulum}}.png</src>
+            <visible>{{is_pendulum}}</visible>
+        </image>
+        <!-- P怪边框（金边） 镀膜 -->
+        <image index="1">
+            <size height="476" left="26" top="103.5" width="373" />
+            <src>foil/pend_{{pendulum}}.png</src>
+            <visible>{{is_pendulum}} and {{cardborder_is_gold}}</visible>
+        </image>
+        <!-- 卡名 -->
+        <text click="cardname" index="2" singleline="true">
+            <size height="33" left="31.5" top="31" width="318" />
+            <align>vcenter</align>
+            <color when="{{has_name_color}}">{{namecolor}}</color>
+            <color when="{{card_name_is_white}}">#ffffff</color>
+            <color>#000000</color>
+            <font name="font/MatrixRegularSmallCaps.ttf" style="normal" size="40" />
+            <text>{{cardname}}</text>
+        </text>
+        <!-- 属性 -->
+        <image click="cardattr" index="2">
+            <size height="38" left="350" top="29" width="38" />
+            <src when="'{{cardtype}}' == 'spell'">attribute/spell_en.png</src>
+            <src when="'{{cardtype}}' == 'trap'">attribute/trap_en.png</src>
+            <src>attribute/{{cardattr}}_en.png</src>
+        </image>
+        <!-- 等级 -->
+        <image click="cardlevel" index="2" scaleType="FIT_CENTER">
+            <size height="25" left="0" top="75" width="421" />
+            <src when="{{card_is_syz}}">rank/rank-{{cardlevel}}.png</src>
+            <src>level/level-{{cardlevel}}.png</src>
+            <visible>{{is_spelltrap}} == false</visible>
+        </image>
+        <!-- 魔法标志 -->
+        <image click="stmark" index="2" scaleType="FIT_CENTER">
+            <size height="26" left="227" top="75" width="150" />
+            <src>enmark/{{stmark}}.png</src>
+            <visible>{{is_spelltrap}}</visible>
+        </image>
+        <!-- 链接 -->
+        <image index="2">
+            <size height="610" left="0" top="0" width="421" />
+            <src>link/link_ul.png</src>
+            <visible>{{is_link_ul}} and {{card_is_link}}</visible>
+        </image>
+        <image index="2">
+            <size height="610" left="0" top="0" width="421" />
+            <src>link/link_u.png</src>
+            <visible>{{is_link_u}} and {{card_is_link}}</visible>
+        </image>
+        <image index="2">
+            <size height="610" left="0" top="0" width="421" />
+            <src>link/link_ur.png</src>
+            <visible>{{is_link_ur}} and {{card_is_link}}</visible>
+        </image>
+        <image index="2">
+            <size height="610" left="0" top="0" width="421" />
+            <src>link/link_l.png</src>
+            <visible>{{is_link_l}} and {{card_is_link}}</visible>
+        </image>
+        <image index="2">
+            <size height="610" left="0" top="0" width="421" />
+            <src>link/link_r.png</src>
+            <visible>{{is_link_r}} and {{card_is_link}}</visible>
+        </image>
+        <image index="2">
+            <size height="610" left="0" top="0" width="421" />
+            <src>link/link_dl.png</src>
+            <visible>{{is_link_dl}} and {{card_is_link}}</visible>
+        </image>
+        <image index="2">
+            <size height="610" left="0" top="0" width="421" />
+            <src>link/link_d.png</src>
+            <visible>{{is_link_d}} and {{card_is_link}}</visible>
+        </image>
+        <image index="2">
+            <size height="610" left="0" top="0" width="421" />
+            <src>link/link_dr.png</src>
+            <visible>{{is_link_dr}} and {{card_is_link}}</visible>
+        </image>
+        <!-- 种族/效果/效果/效果 -->
+        <layout click="cardmonster" index="2" type="horizontal">
+            <size height="24" left="32" top="473" when="{{pendulum_is_big}}" width="314" />
+            <size height="24" left="32" top="458" width="314" />
+            <text>
+                <align>vcenter</align>
+                <color>#000000</color>
+                <font name="font/ITCStoneSerifSmallCapsBold.ttf" style="normal" size="14" />
+                <text>[</text>
+            </text>
+            <text>
+                <align>vcenter</align>
+                <color>#000000</color>
+                <font name="font/ITCStoneSerifSmallCapsBold.ttf" style="normal" size="15" />
+                <text>{{race}}</text>
+            </text>
+            <text>
+                <align>vcenter</align>
+                <color>#000000</color>
+                <font name="font/ITCStoneSerifSmallCapsBold.ttf" style="normal" size="15" />
+                <text>/{{effect1}}</text>
+                <visible>'{{effect1}}' != ''</visible>
+            </text>
+            <text>
+                <align>vcenter</align>
+                <color>#000000</color>
+                <font name="font/ITCStoneSerifSmallCapsBold.ttf" style="normal" size="15" />
+                <text>/{{effect2}}</text>
+                <visible>'{{effect2}}' != ''</visible>
+            </text>
+            <text>
+                <align>vcenter</align>
+                <color>#000000</color>
+                <font name="font/ITCStoneSerifSmallCapsBold.ttf" style="normal" size="15" />
+                <text>/{{effect3}}</text>
+                <visible>'{{effect3}}' != ''</visible>
+            </text>
+            <text>
+                <align>vcenter</align>
+                <color>#000000</color>
+                <font name="font/ITCStoneSerifSmallCapsBold.ttf" style="normal" size="14" />
+                <text>]</text>
+            </text>
+            <visible>{{is_spelltrap}} == false</visible>
+        </layout>
+        <!-- ATK -->
+        <text click="cardatk" index="2">
+            <size height="22" left="255" top="555" width="50" />
+            <align>right|vcenter</align>
+            <color>#000000</color>
+            <font name="font/ITCStoneSerif.ttf" style="bold" size="15"
+                when="{{cardatk}} == 0 and '{{cardatk}}' != '0'" />
+            <font name="font/MatrixBoldSmallCaps.ttf" style="normal" size="18.5" />
+            <text>{{cardatk}}</text>
+            <visible>{{is_spelltrap}} == false</visible>
+        </text>
+        <!-- DEF -->
+        <text click="carddef" index="2">
+            <size height="22" left="339" top="555" when="{{card_is_link}} == false" width="50" />
+            <size height="22" left="339" top="552" when="{{card_is_link}}" width="50" />
+            <align>right|vcenter</align>
+            <color>#000000</color>
+            <font name="font/ITCStoneSerif.ttf" style="bold" size="15"
+                when="{{carddef}} == 0 and '{{carddef}}' != '0' and {{card_is_link}} == false" />
+            <font name="font/ITCStoneSerifSmallCapsBold.ttf" style="normal" size="15"
+                when="{{card_is_link}}" />
+            <font name="font/MatrixBoldSmallCaps.ttf" style="normal" size="18.5"
+                when="{{card_is_link}} == false" />
+            <text>{{carddef}}</text>
+            <visible>{{is_spelltrap}} == false</visible>
+        </text>
+        <!-- P怪 左刻度 -->
+        <text click="cardpleft" index="2">
+            <size height="36" left="31" top="422" when="{{pendulum_is_big}}" width="30" />
+            <size height="36" left="31" top="420" when="{{pendulum_is_small}}" width="30" />
+            <size height="36" left="31" top="413" width="30" />
+            <align>center</align>
+            <color>#000000</color>
+            <font name="font/MatrixBoldSmallCaps.ttf" style="normal" size="27" />
+            <text>{{cardpleft}}</text>
+            <visible>{{is_pendulum}}</visible>
+        </text>
+        <!-- P怪 右刻度 -->
+        <text click="cardpright" index="2">
+            <size height="36" left="362" top="422" when="{{pendulum_is_big}}" width="30" />
+            <size height="36" left="362" top="420" when="{{pendulum_is_small}}" width="30" />
+            <size height="36" left="362" top="413" width="30" />
+            <align>center</align>
+            <color>#000000</color>
+            <font name="font/MatrixBoldSmallCaps.ttf" style="normal" size="27" />
+            <text>{{cardpright}}</text>
+            <visible>{{is_pendulum}}</visible>
+        </text>
+        <!-- 卡片密码 -->
+        <text click="cardcode" index="2" singleline="true">
+            <size height="17" left="19" top="580" width="60" />
+            <align>vcenter</align>
+            <color when="{{card_is_black}}">#ffffff</color>
+            <color>#000000</color>
+            <font name="font/ITCStoneSerif.ttf" style="normal" size="11" />
+            <text>{{cardcode}}</text>
+        </text>
+        <!-- 版权图片 -->
+        <image click="cardfoil" index="2" scaleType="FIT_CENTER">
+            <size height="10" left="224" top="583" width="160" />
+            <src when="{{card_is_black}}">copyright/{{cardcopy}}1.png</src>
+            <src>copyright/{{cardcopy}}0.png</src>
+        </image>
+        <!-- P怪效果 -->
+        <text click="cardptext" index="2" keepWord="true" line-space-scale="1.0" singleline="false">
+            <size height="46" left="67" top="405" when="{{pendulum_is_small}}" width="288" />
+            <size height="78" left="67" top="388" when="{{pendulum_is_big}}" width="288" />
+            <size height="63" left="67" top="388" width="288" />
+            <align>left</align>
+            <color>#000000</color>
+            <font name="font/MatrixBook.ttf" style="normal" size="13" />
+            <text>{{cardptext}}</text>
+            <visible>{{is_pendulum}}</visible>
+        </text>
+        <!-- 效果-->
+        <text click="cardtext" index="2" keepWord="true" line-space-scale="1.0" singleline="false">
+            <size height="58" left="34.5" top="493" when="{{pendulum_is_big}}" width="353" />
+            <size height="110" left="34.5" top="461" when="{{is_spelltrap}}" width="353" />
+            <size height="75" left="34.5" top="479" width="353" />
+            <align>left</align>
+            <color>#000000</color>
+            <font name="font/MatrixBook.ttf" style="normal" size="14" when="{{is_spelltrap}}" />
+            <font name="font/MatrixBook.ttf" style="italic" size="13"
+                when="'{{cardtype}}'=='normal'" />
+            <font name="font/MatrixBook.ttf" style="normal" size="13" />
+            <text>{{cardtext}}</text>
+        </text>
+        <!-- 卡包编号 -->
+        <text click="cardnum" index="2" singleline="true">
+            <size height="18" left="37" top="555" when="{{is_pendulum}}" width="140" />
+            <size height="18" left="237" top="436.5" width="140" />
+            <align when="{{is_pendulum}}">vcenter</align>
+            <align>right|vcenter</align>
+            <color when="{{card_is_black}}">#ffffff</color>
+            <color>#000000</color>
+            <font name="font/ITCStoneSerif.ttf" style="normal" size="12" />
+            <text>{{cardnum}}</text>
+            <visible>{{card_is_link}} == false</visible>
+        </text>
+        <!-- edition -->
+        <text click="edition" index="2" singleline="true">
+            <size height="16" left="78" top="580" width="110" />
+            <align>left|vcenter</align>
+            <color when="{{card_is_black}}">#ffffff</color>
+            <color>#000000</color>
+            <font name="font/ITCStoneSerif.ttf" style="normal" size="12" />
+            <text>{{edition}}</text>
+        </text>
+        <!-- 防伪 -->
+        <image click="cardfoil" index="2">
+            <size height="21" left="389" top="576" width="21" />
+            <src>{{corner}}.png</src>
+        </image>
+        <!-- 链接 -->
+        <image click="cardlink" index="2">
+            <size height="45" left="20" top="100" width="45" />
+        </image>
+        <image click="cardlink" index="2">
+            <size height="45" left="192.5" top="100" width="45" />
+        </image>
+        <image click="cardlink" index="2">
+            <size height="45" left="365" top="100" width="45" />
+        </image>
+        <image click="cardlink" index="2">
+            <size height="45" left="20" top="261.5" width="45" />
+        </image>
+        <image click="cardlink" index="2">
+            <size height="45" left="365" top="261.5" width="45" />
+        </image>
+        <image click="cardlink" index="2">
+            <size height="45" left="20" top="433" width="45" />
+        </image>
+        <image click="cardlink" index="2">
+            <size height="45" left="192.5" top="433" width="45" />
+        </image>
+        <image click="cardlink" index="2">
+            <size height="45" left="365" top="433" width="45" />
+        </image>
+    </layout>
+</style>
